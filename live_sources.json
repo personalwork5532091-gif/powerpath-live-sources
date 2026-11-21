@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "updated": "2026-11-21",
+  "note": "Website addresses only (no specs). Links checked on 2026-11-21 (HTTP 200 + PDF). Live data is never marked VERIFIED.",
+  "panels": [
+    {
+      "company": "LONGi",
+      "series": "Hi-MO 7 LR7-72HGD",
+      "watt_min": 595,
+      "watt_max": 625,
+      "page_url": "https://www.longi.com/en/products/modules/hi-mo-7/",
+      "pdf_url": "https://static.longi.com/L_Gi_LE_PM_T_PMD_059_F151_LR_7_72_HGD_595_625_M_V2_30_30_and_15_V8_0_EN_9e801112d3.pdf",
+      "pdf_link_pattern": "LR_7_72_HGD.*\\.pdf",
+      "parser": "longi_v1",
+      "status": "ok",
+      "last_checked": "2026-11-21",
+      "note": "The newest PDF on the product page (585-620 W, V05) has no text layer, so this 595-625 W PDF with text is used first."
+    },
+    {
+      "company": "LONGi",
+      "series": "Hi-MO 7 LR5-72HGD",
+      "watt_min": 560,
+      "watt_max": 590,
+      "pdf_url": "https://static.longi.com/L_Gi_LE_PM_T_PMD_059_F139_LR_5_72_HGD_560_590_M_V1_30_30_and_15_V19_3_EN_8fdcd1a7f4.pdf",
+      "parser": "longi_v1",
+      "status": "ok",
+      "last_checked": "2026-11-21"
+    },
+    {
+      "company": "JA Solar",
+      "series": "DeepBlue 4.0 JAM72D40/MB",
+      "watt_min": 570,
+      "watt_max": 595,
+      "pdf_url": "https://www.jasolar.com/uploadfile/fujian/2024/0328/2aa9356c9bf80de.pdf",
+      "parser": "ja_solar_v1",
+      "status": "ok",
+      "last_checked": "2026-11-21",
+      "note": "The JA Solar product pages block automatic access. The official PDF downloads, but it has no text layer (text drawn as shapes), so the app cannot read it and uses the imported data."
+    },
+    {
+      "company": "Jinko",
+      "series": "Tiger Neo 72HL4-(V)",
+      "watt_min": 580,
+      "watt_max": 605,
+      "page_url": "https://www.jinkosolar.com/en/site/tigerneo",
+      "pdf_url": "https://jinkosolarcdn.shwebspace.com/uploads/JKM580-605N-72HL4-(V)-F8-EN.pdf",
+      "pdf_link_pattern": "JKM5\\d\\d-6\\d\\dN-72HL4.*\\.pdf",
+      "parser": "jinko_v1",
+      "status": "ok",
+      "last_checked": "2026-11-21"
+    },
+    {
+      "company": "Jinko",
+      "series": "Tiger Neo 78HL4-BDV",
+      "watt_min": 605,
+      "watt_max": 650,
+      "pdf_url": "https://www.jinkosolar.com/uploads/JKM605-625N-78HL4-BDV-F6-EN.pdf",
+      "parser": "jinko_v1",
+      "status": "ok",
+      "last_checked": "2026-11-21",
+      "page_url": "https://www.jinkosolar.com/en/site/tigerneo",
+      "pdf_link_pattern": "JKM\\d{3}-\\d{3}N-78HL4-BDV.*\\.pdf",
+      "note": "The product page lists the newer 625-650 W version (F9, checked 2026-11-21); the app reads the newest PDF first and falls back to the 605-625 W PDF (F6) for 605-620 W."
+    },
+    {
+      "company": "Trina Solar",
+      "series": "Vertex N NFG19RC.20",
+      "watt_min": 600,
+      "watt_max": 620,
+      "pdf_url": "https://www-cdn.trinasolar.com/wwwstorage/sites/17/DT-M-0083-Datasheet_VertexN_NFG19RC.20_600-620W_2025_PA8.pdf",
+      "parser": "trina_v1",
+      "status": "ok",
+      "last_checked": "2026-11-21"
+    },
+    {
+      "company": "Canadian Solar",
+      "series": "TOPBiHiKu6 CS6W-TB-AG",
+      "watt_min": 565,
+      "watt_max": 600,
+      "page_url": "https://www.canadiansolar.com/topbihiku6/",
+      "pdf_url": "https://www.canadiansolar.com/wp-content/uploads/sites/3/2026/01/CS-Datasheet-TOPBiHiKu6_CS6W-TB-AG_v2.0C2_F68_D1_NA.pdf",
+      "parser": "canadian_v1",
+      "status": "ok",
+      "last_checked": "2026-11-21"
+    }
+  ],
+  "inverters": [
+    {
+      "company": "Huawei",
+      "series": "SUN2000-2-6KTL-L1",
+      "type": "on-grid",
+      "kw_min": 2,
+      "kw_max": 6,
+      "page_url": "https://solar.huawei.com/en/products/SUN2000-3-4-5-6KTL-L1/specs/",
+      "pdf_url": "https://solar.huawei.com/-/media/Solar/attachment/pdf/in/datasheet/FusionSolar_Residential_Commercial_Datasheet.pdf",
+      "parser": "huawei_v1",
+      "status": "ok",
+      "last_checked": "2026-11-21"
+    },
+    {
+      "company": "Solis",
+      "series": "S6-EH1P(3-8)K-L-PLUS",
+      "type": "hybrid",
+      "kw_min": 3,
+      "kw_max": 8,
+      "pdf_url": "https://www.solisinverters.com/uploads/file/Solis_datasheet_S6-EH1P%283-8%29K-L-PLUS_Global_V2%2C0_202406.pdf",
+      "parser": "solis_v1",
+      "status": "ok",
+      "last_checked": "2026-11-21",
+      "note": "The company marks this datasheet as preliminary."
+    },
+    {
+      "company": "Growatt",
+      "series": "SPF 6000 ES Plus",
+      "type": "off-grid",
+      "kw_min": 6,
+      "kw_max": 6,
+      "page_url": "https://en.growatt.com/products/spf-6000-es-plus",
+      "status": "ok",
+      "last_checked": "2026-11-21",
+      "pdf_url": "https://en.growatt.com/upload/file/SPF_6000_ES_Plus_Datasheet_EN_202211.pdf",
+      "pdf_link_pattern": "SPF_6000_ES_Plus_Datasheet.*\\.pdf",
+      "parser": "growatt_spf_v1"
+    },
+    {
+      "company": "GoodWe",
+      "series": "ES G2",
+      "type": "hybrid",
+      "kw_min": 3,
+      "kw_max": 6,
+      "page_url": "https://en.goodwe.com/es-g2",
+      "status": "ok",
+      "last_checked": "2026-11-21",
+      "pdf_url": "https://en.goodwe.com/Ftp/EN/Downloads/Datasheet/GW_ES%20G2_Datasheet-EN.pdf",
+      "parser": "goodwe_v1",
+      "note": "The product page builds its download button with JavaScript, so only the direct PDF link is used."
+    },
+    {
+      "company": "Fronus",
+      "series": "(all)",
+      "page_url": "https://fronus.com/downloads/",
+      "status": "no_usable_datasheet",
+      "last_checked": "2026-11-21",
+      "note": "Fronus datasheets checked on 2026-11-21: the Platinum PV PDFs have no text layer, and the Infineon Reborn PV PDFs do not list the MPPT count or the input current per MPPT, so live data cannot be used."
+    },
+    {
+      "company": "Inverex",
+      "status": "not_found",
+      "last_checked": "2026-11-21"
+    }
+  ],
+  "batteries": [
+    {
+      "company": "Dyness",
+      "series": "B4850",
+      "chemistry": "lithium",
+      "voltage": 48,
+      "kwh_min": 2.4,
+      "kwh_max": 2.4,
+      "pdf_url": "https://www.dyness.com/Public/Uploads/uploadfile/files/20241022/DynessB4850datasheetEN.pdf",
+      "parser": "dyness_v1",
+      "status": "ok",
+      "language": "en",
+      "last_checked": "2026-11-21"
+    },
+    {
+      "company": "Pylontech",
+      "series": "US5000",
+      "chemistry": "lithium",
+      "voltage": 48,
+      "kwh_min": 4.8,
+      "kwh_max": 4.8,
+      "page_url": "https://en.pylontech.com.cn/products/c23/121.html",
+      "status": "ok",
+      "last_checked": "2026-11-21",
+      "pdf_url": "https://en.pylontech.com.cn/profile/upload/2026/06/23/US%205000%20Spec_1782186290116.pdf",
+      "parser": "pylontech_v1",
+      "note": "In this PDF's text layer the nominal voltage reads \"8\" (the first digit is not text) and the capacity in Ah is not given, so the app marks it Invalid and uses the imported data."
+    },
+    {
+      "company": "Narada",
+      "chemistry": "lithium",
+      "status": "not_found",
+      "last_checked": "2026-11-21"
+    },
+    {
+      "company": "Inverex",
+      "chemistry": "lithium",
+      "status": "not_found",
+      "last_checked": "2026-11-21"
+    },
+    {
+      "company": "Phoenix",
+      "chemistry": "lead-acid",
+      "status": "not_found",
+      "last_checked": "2026-11-21"
+    },
+    {
+      "company": "AGS",
+      "chemistry": "lead-acid",
+      "status": "not_found",
+      "last_checked": "2026-11-21"
+    },
+    {
+      "company": "Exide",
+      "chemistry": "lead-acid",
+      "status": "not_found",
+      "last_checked": "2026-11-21"
+    }
+  ]
+}
