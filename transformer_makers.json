@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-22",
+  "about": "Distribution transformer makers used in Pakistan and the technical data they publish. Only Pakistani sources. A maker without published data uses the IEC 60076-5 minimum impedance until its datasheet / nameplate value is added. The online copy of this file (GitHub powerpath-live-sources) is read by the 'Update data' button.",
+  "list_source": {
+    "document": "Punjab Health PMU, RFP Letter No. PSH/PMU/PROC/007/2021 (29 April 2021): invitation to PEPCO / WAPDA / DISCO's Pre-qualified & Registered manufacturers",
+    "url": "https://www.pmuhealth.gop.pk/wp-content/uploads/2021/05/RFP-TRANSFORMER-630KVA-400-KVA-200-KVA.pdf",
+    "status": "SOURCE_TRANSCRIBED_NOT_INDEPENDENTLY_VERIFIED"
+  },
+  "fault_level_rule": {
+    "text": "NEPRA Distribution Code 2005, DDC 3.1(c): equipment shall suit the design short-circuit rating of the Licensee (DISCO) distribution system; details of the system are provided by the Licensee. No fixed 11 kV value is published: ask your DISCO for the fault level at your connection point.",
+    "url": "https://nepra.org.pk/Legislation/6-Codes/6.1%20Distribution%20Code%20%202005/Distribution%20Code%202005.pdf",
+    "status": "SOURCE_TRANSCRIBED_NOT_INDEPENDENTLY_VERIFIED"
+  },
+  "makers": [
+    {
+      "id": "grit",
+      "name": "Grit (Pvt) Ltd - Albario Engineering Group, Lahore",
+      "in_pepco_list": true,
+      "standards": "WAPDA DDS-84:2011, DDS-71:2007, IEC 60076, K-Electric K/R&D/DT/28",
+      "impedance_table": [
+        {"max_kva": 630, "percent": 4.0},
+        {"max_kva": 1500, "percent": 5.0},
+        {"max_kva": 3500, "percent": 6.25},
+        {"max_kva": 4000, "percent": 7.15}
+      ],
+      "source": {
+        "document": "Grit distribution transformer brochure, page 4 (rating / impedance table)",
+        "url": "https://aepl.com.pk/wp-content/uploads/2020/12/Brochure-Design-Updated_2.pdf",
+        "status": "SOURCE_TRANSCRIBED_NOT_INDEPENDENTLY_VERIFIED",
+        "note": "Impedance column read from the PDF text in table order (10-630 kVA 4 %, 750-1500 kVA 5 %, 2000-3500 kVA 6.25 %, 4000 kVA 7.15 %). Losses are not published."
+      }
+    },
+    {"id": "ab_ampere", "name": "AB Ampere", "in_pepco_list": true},
+    {"id": "ace_indigo", "name": "ACE Indigo Transformers (Pvt) Limited", "in_pepco_list": true},
+    {
+      "id": "elmetec",
+      "name": "Elmetec Pvt Ltd",
+      "in_pepco_list": true,
+      "standards": "WAPDA DDS-84-2007 (amended to date), IEC 60076",
+      "source": {
+        "document": "Elmetec Group - Distribution Transformers (ratings 10-200 kVA pole mounted, up to 630 kVA pad mounted; no impedance / loss values published)",
+        "url": "https://elmetecgroup.com/transfor.html",
+        "status": "SOURCE_TRANSCRIBED_NOT_INDEPENDENTLY_VERIFIED"
+      }
+    },
+    {"id": "hammad", "name": "Hammad Engineering Company (Pvt) Ltd. & Co.", "in_pepco_list": true},
+    {"id": "jf_industries", "name": "J.F Industries (Pvt) Ltd", "in_pepco_list": true},
+    {"id": "mega", "name": "Mega Transformers (Pvt) Ltd", "in_pepco_list": true},
+    {"id": "mtech", "name": "M-Tech (Multi Technologies) Pvt Ltd", "in_pepco_list": true},
+    {"id": "pel", "name": "Pak Elektron Limited (PEL)", "in_pepco_list": true},
+    {"id": "pan_power", "name": "Pan Power International (Pvt) Ltd.", "in_pepco_list": true},
+    {"id": "sky_power", "name": "Sky Power (Pvt) Ltd", "in_pepco_list": true},
+    {"id": "syed_bhais", "name": "Syed Bhais (Pvt) Ltd", "in_pepco_list": true},
+    {"id": "synergy", "name": "Synergy Elektric (Pvt) Ltd", "in_pepco_list": true},
+    {"id": "transfab", "name": "Transfab", "in_pepco_list": true},
+    {
+      "id": "transfopower",
+      "name": "Transfopower Industries (Pvt) Ltd",
+      "in_pepco_list": true,
+      "standards": "WAPDA DDS-84:2020 (amended to date), IEC 60076; 11/0.415 kV, Dyn11",
+      "source": {
+        "document": "Transfopower - WAPDA Standard DISCO's Rating (10-630 kVA; no impedance / loss values published)",
+        "url": "https://transfopower.pk/three-phase-pole-pad-mounted-transformer/",
+        "status": "SOURCE_TRANSCRIBED_NOT_INDEPENDENTLY_VERIFIED"
+      }
+    },
+    {"id": "world_over", "name": "World Over Engineering (Pvt) Ltd", "in_pepco_list": true},
+    {"id": "siemens_pk", "name": "Siemens Pakistan", "in_pepco_list": false},
+    {"id": "power_link", "name": "Power Link", "in_pepco_list": false}
+  ]
+}
